@@ -1,7 +1,7 @@
 body { 
   text-align: center; 
   margin: 0; 
-  background: #77eb8e; 
+  background: #f4f0f0d9; 
   display: flex; 
   align-items: center; 
   justify-content: center; 
@@ -9,7 +9,7 @@ body {
 }
 #calculator { 
   max-width: 360px; 
-  background-color: #d4e2f18d; 
+  background-color: #000000; 
   border-radius: 10px; 
   padding: 20px; 
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 0px 0px rgba(0, 0, 0, 0.23);
@@ -22,13 +22,13 @@ body {
   margin-bottom: 10px; 
   padding: 20px; 
   border-radius: 5px; 
-  color: #e0e1dd; 
-  background-color: rgba(13, 27, 42, 0.467); 
+  color: #ffffff; 
+  background-color: rgba(255, 255, 255, 0.732); 
   border: none; 
   box-sizing: border-box;
 }
 .operator { 
-  color: #8877eb;
+  color: #000000;
 }
 #ac { 
   color: #bf4d5d;
@@ -44,8 +44,8 @@ button {
   border: none; 
   border-radius: 5px; 
   float: left; 
-  background-color: rgba(13, 27, 42, 0.805); 
-  color: #e0e1dd; 
+  background-color: #fcfff9b3;
+  color: #000000; 
   -webkit-box-shadow: -1px 1px 30px -5px rgba(0, 0, 0, 0.2); 
   -moz-box-shadow: -1px 1px 30px -5px rgba(0, 0, 0, 0.2); 
   box-shadow: -1px 1px 30px -5px rgba(0, 0, 0, 0.2);
