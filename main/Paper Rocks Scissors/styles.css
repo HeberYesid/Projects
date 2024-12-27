@@ -1,0 +1,106 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #007acc;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+#instructions {
+    padding: 10px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#scoreboard {
+    background-color: #e0e7ff;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 400px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#scoreboard h2 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#choices {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+img {
+    border: 2px solid #007acc;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+button:hover img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#result {
+    font-size: 1.5em;
+    margin: 20px;
+    color: #007acc;
+}
+
+#reset-game {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#reset-game:hover {
+    background-color: #005f99;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 600px) {
+    #choices {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    button img {
+        width: 100px;
+        height: 100px;
+    }
+}
+img {
+    border: none; /* Sin bordes */
+    border-radius: 50%; /* Redondear las esquinas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra elegante */
+    transition: box-shadow 0.3s ease;
+}

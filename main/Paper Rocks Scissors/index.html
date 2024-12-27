@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra papel o tijera</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Juega contra la IA</h1>
+
+    <section id="instructions">
+        <p>Elige una opción para jugar contra la inteligencia artificial. ¡Gana quien obtenga más puntos!</p>
+    </section>
+
+    <div id="scoreboard">
+        <h2>Marcador</h2>
+        <p>Usuario: <span id="user-score">0</span></p>
+        <p>IA: <span id="ai-score">0</span></p>
+    </div>
+
+    <div id="choices">
+        <button id="piedra"><img 
+            src="images/piedra.png"
+            title="piedra"
+            width="150" 
+            height="150"
+        /></button>
+        <button id="papel"><img 
+            src="images/papel.png"
+            title="papel"
+            width="150" 
+            height="150"
+        /></button>
+        <button id="tijera"><img 
+            src="images/tijeras.png"
+            title="tijera"
+            width="150" 
+            height="150"
+        /></button>
+    </div>
+
+    <div id="result">
+        <h3>¡Empieza el juego!</h3>
+    </div>
+
+    <button id="reset-game">Reiniciar Juego</button>
+
+    <script src="prs.js"></script>
+</body>
+</html>
