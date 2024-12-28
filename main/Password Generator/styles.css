@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background: #007bff;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+main {
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor-salida {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#mostrarContraseña {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: center;
+}
+
+#botonCopiar {
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#botonCopiar:hover {
+    background: #218838;
+}
+
+.medidor-seguridad {
+    margin-bottom: 20px;
+}
+
+#barraSeguridad {
+    background: #ccc;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+#nivelSeguridad {
+    height: 100%;
+    width: 30%;
+    background: #e74c3c;
+    transition: width 0.3s, background 0.3s;
+}
+
+.configuracion label {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 0.9em;
+}
+
+.configuracion input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+#longitudcontraseña {
+    width: 100%;
+}
+
+#valorLongitud {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.botones-accion {
+    text-align: center;
+}
+
+#botonGenerar {
+    padding: 10px 20px;
+    font-size: 1em;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#botonGenerar:hover {
+    background: #0056b3;
+}
