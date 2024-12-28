@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Generador de contraseñas</h1>
+    <div id="mostrarContraseña">
+        <form >
+            <input type="text">
+        </form>
+        <div>
+            <button id="botonCopiar"></button>
+            <button id="botonRegenerar"></button>
+        </div>  
+        <div id="seguridadContraseña"></div>
+
+    </div>
+    <div id="personalizarContraseña">
+        <h3>Personalice su contraseña</h3>
+        <div>
+            <label>Longitud de la contraseña</label>
+            <div>
+                <input id="inputLongitudContraseña" value="15" type="number" min="0" max="50">
+            </div>
+            <div id="barraRangoPersonalizada">
+                <div id="rango"></div>
+                <button id="barra">
+                    
+                </button>
+            </div>
+        </div>
+        <div>
+            <div id="ajustes1">
+                <div id="radiobotonFacildeDecir">
+                    <input id="facildeDecir" type="radio">
+                    <label>Facil de Decir</label>
+                </div>
+                <div id="radiobotonfacildeLeer">
+                    <input id="facildeLeer" type="radio">
+                    <label>Facil de Leer</label>
+                </div>
+                <div id="radiobotonTodoslosCaracteres">
+                    <input id="todosLosCaracteres" type="radio">
+                    <label>Todos los Caracteres</label>
+                </div>
+            </div>
+            <div id="ajustes2">
+                <div>
+                    <input checked id="mayusculas" type="checkbox">
+                    <label for="mayusculas">Mayusculas</label>
+                </div>
+                <div>
+                    <input checked id="minusculas" type="checkbox">
+                    <label for="minusculas">Minusculas</label>
+                </div>
+                <div>
+                    <input checked id="numeros" type="checkbox">
+                    <label for="numeros">Numeros</label>
+                </div>
+                <div>
+                    <input checked id="simbolos" type="checkbox">
+                    <label for="simbolos">Simbolos</label>
+                </div>
+
+            </div>
+        </div>
+        <div id="copiarcontraseña">
+            <button id="botonCopiarContraseña">Copiar Contraseña</button>
+        </div>
+
+
+
+    </div>
+    
+    <script src="generator.js"></script>
+</body>
+</html>
