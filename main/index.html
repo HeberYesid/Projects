@@ -3,29 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyectos</title>
-    <link rel="stylesheet" href="styles.css" />
+    <meta name="description" content="Portafolio de proyectos de desarrollo web y programación">
+    <title>Mi Portafolio | Proyectos</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-  </head>
 <body>
     <header>
-        <h1>Mis Proyectos</h1>
+        <div class="header-content">
+            <h1>Mi Portafolio</h1>
+            <p>Desarrollador Web Full Stack</p>
+        </div>
     </header>
+    
     <nav>
-        <nav>
-            <a href="Calculator/index.html" target="_blank">Calculadora</a>
-            <a href="Paper Rocks Scissors/index.html" target="_blank">PPT</a>
-            <a href="Password Generator/index.html" target="_blank">Password Gen</a>
-      
-        </nav>
-        
-        
+        <div class="nav-links">
+            <a href="#proyectos">Proyectos</a>
+            <a href="#sobre-mi">Sobre Mí</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#contacto">Contacto</a>
+        </div>
     </nav>
+
     <main>
-        
+        <section id="proyectos">
+            <h2>Mis Proyectos</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="/api/placeholder/300/200" alt="Calculadora" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Calculadora</h3>
+                        <p>Una calculadora interactiva desarrollada con HTML, CSS y JavaScript. Permite realizar operaciones matemáticas básicas con una interfaz moderna.</p>
+                        <div class="project-links">
+                            <a href="Calculator/index.html" target="_blank">Ver Demo</a>
+                            <a href="#" target="_blank">Código</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="/api/placeholder/300/200" alt="Piedra, Papel o Tijeras" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Piedra, Papel o Tijeras</h3>
+                        <p>Juego clásico implementado con JavaScript. Incluye animaciones y un sistema de puntuación.</p>
+                        <div class="project-links">
+                            <a href="Paper Rocks Scissors/index.html" target="_blank">Ver Demo</a>
+                            <a href="#" target="_blank">Código</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="/api/placeholder/300/200" alt="Generador de Contraseñas" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Generador de Contraseñas</h3>
+                        <p>Herramienta que genera contraseñas seguras con opciones personalizables de longitud y tipos de caracteres.</p>
+                        <div class="project-links">
+                            <a href="Password Generator/index.html" target="_blank">Ver Demo</a>
+                            <a href="#" target="_blank">Código</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="sobre-mi" class="about-section">
+            <h2>Sobre Mí</h2>
+            <p>Soy un desarrollador web apasionado por crear soluciones digitales innovadoras. Me especializo en el desarrollo full stack y disfruto aprendiendo nuevas tecnologías.</p>
+        </section>
+
+        <section id="habilidades" class="skills-section">
+            <h2>Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-item">HTML5</div>
+                <div class="skill-item">CSS3</div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">React</div>
+                <div class="skill-item">Node.js</div>
+                <div class="skill-item">Git</div>
+            </div>
+        </section>
     </main>
 
-    <script src="app.js"></script>
-
+    <footer>
+        <p>© 2024 Mi Portafolio. Todos los derechos reservados.</p>
+        <div class="social-links">
+            <a href="#" target="_blank">GitHub</a>
+            <a href="#" target="_blank">LinkedIn</a>
+            <a href="#" target="_blank">Twitter</a>
+        </div>
+    </footer>
 </body>
 </html>
